@@ -1,8 +1,8 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders the page, checks rather text and image is visible and matches the snapshot', () => {
+test("renders the page, checks rather text and image is visible and matches the snapshot", () => {
   const { container } = render(<App />);
   const linkElement = screen.getByText(/Action Button/i);
   const logoElement = screen.getByAltText(/Clear business logo/i);

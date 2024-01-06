@@ -1,23 +1,25 @@
-import React from 'react'
-import { FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa'
-import { StyledSocialIcons } from './styles/SocialIcons.styled'
+import React from "react";
+import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { StyledSocialIcons } from "./styles/SocialIcons.styled";
 
-const SocialIcons = (): JSX.Element => <StyledSocialIcons>
-  <li>
-    <a href='https://twitter.com'>
-      <FaTwitter />
-    </a>
-  </li>
-  <li>
-    <a href='https://facebook.com'>
-      <FaFacebook />
-    </a>
-  </li>
-  <li>
-    <a href='https://linkedin.com'>
-      <FaLinkedin />
-    </a>
-  </li>
-</StyledSocialIcons>
+const SocialIcons = (): JSX.Element => (
+  <StyledSocialIcons>
+    <li>
+      <a href="https://twitter.com">
+        <FaTwitter />
+      </a>
+    </li>
+    <li>
+      <a href="https://facebook.com">
+        <FaFacebook />
+      </a>
+    </li>
+    <li>
+      <a href="https://linkedin.com">
+        <FaLinkedin />
+      </a>
+    </li>
+  </StyledSocialIcons>
+);
 
 export default SocialIcons;

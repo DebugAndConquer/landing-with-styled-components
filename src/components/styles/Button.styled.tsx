@@ -1,8 +1,8 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 interface StyledButtonProps {
-  $backgroundColor?: string
-  $color?: string
+  $backgroundColor?: string;
+  $color?: string;
 }
 
 export const Button = styled.button<StyledButtonProps>`
@@ -13,11 +13,11 @@ export const Button = styled.button<StyledButtonProps>`
   font-size: 1rem;
   font-weight: 700;
   padding: 0.9375rem 3.75rem;
-  background-color: ${({ $backgroundColor }) => $backgroundColor || '#fff'};
-  color: ${({ $color }) => $color || '#333'};
+  background-color: ${({ $backgroundColor }) => $backgroundColor || "#fff"};
+  color: ${({ $color }) => $color || "#333"};
 
   &:hover {
     opacity: 0.9;
     transform: scale(0.98);
   }
-`
+`;

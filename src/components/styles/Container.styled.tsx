@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 62.5rem;
@@ -8,4 +8,4 @@ export const Container = styled.div`
   @media (max-width: ${({ theme }) => theme.mobile}) {
     padding: 0 2rem;
   }
-`
+`;
